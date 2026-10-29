@@ -1,0 +1,108 @@
+import type { Medication } from '../types';
+
+export const MEDICATIONS: Medication[] = [
+  {
+    id: 'med-1',
+    name: 'Paracetamol (Acetaminophen)',
+    category: 'Pain & Fever Relief',
+    commonUses: 'Commonly used for relief of mild to moderate pain and to reduce fever. Available in many over-the-counter products.',
+    generalPrecautions: 'Do not exceed the recommended dose on the product label. Avoid combining multiple products that contain paracetamol. People with liver problems should seek advice before use. Keep out of reach of children.',
+    questionsForPharmacist: [
+      'What is the maximum daily dose for my age/weight?',
+      'Can I take this with my other medications?',
+      'How long can I safely use this for fever or pain?',
+    ],
+    source: 'General educational information (demo)',
+  },
+  {
+    id: 'med-2',
+    name: 'Ibuprofen',
+    category: 'Pain & Fever Relief',
+    commonUses: 'A non-steroidal anti-inflammatory drug (NSAID) used for pain, inflammation, and fever reduction.',
+    generalPrecautions: 'Take with food if it upsets the stomach. Not suitable for everyone—people with certain stomach, kidney, heart, or asthma conditions should check with a clinician or pharmacist. Avoid if allergic to NSAIDs.',
+    questionsForPharmacist: [
+      'Is ibuprofen appropriate given my medical history?',
+      'What dose and duration is recommended?',
+      'Are there interactions with my other medicines?',
+    ],
+    source: 'General educational information (demo)',
+  },
+  {
+    id: 'med-3',
+    name: 'Cetirizine',
+    category: 'Allergy Relief',
+    commonUses: 'An antihistamine commonly used to relieve symptoms of hay fever and other allergies such as sneezing, runny nose, and itchy eyes.',
+    generalPrecautions: 'May cause drowsiness in some people. Follow label instructions. Consult a pharmacist if you have kidney problems or are taking other medicines that cause sleepiness.',
+    questionsForPharmacist: [
+      'Will this make me drowsy?',
+      'Can I take it with my other medications?',
+      'How long should I use it for seasonal symptoms?',
+    ],
+    source: 'General educational information (demo)',
+  },
+  {
+    id: 'med-4',
+    name: 'Omeprazole',
+    category: 'Digestive Health',
+    commonUses: 'A proton-pump inhibitor that reduces stomach acid production. Used for heartburn, acid reflux, and related conditions under appropriate guidance.',
+    generalPrecautions: 'Long-term use should be supervised by a clinician. Inform your doctor about all medications you take. Do not stop prescribed treatment without advice.',
+    questionsForPharmacist: [
+      'Should I take this before or after food?',
+      'How long is a typical course?',
+      'Are there interactions with my other medicines?',
+    ],
+    source: 'General educational information (demo)',
+  },
+  {
+    id: 'med-5',
+    name: 'Oral Rehydration Salts (ORS)',
+    category: 'Hydration Support',
+    commonUses: 'Used to replace fluids and electrolytes lost due to diarrhea or vomiting. Available as sachets to mix with clean water.',
+    generalPrecautions: 'Follow preparation instructions carefully. Seek medical care for severe dehydration, persistent vomiting, blood in stool, or if symptoms do not improve. Not a substitute for medical evaluation in serious illness.',
+    questionsForPharmacist: [
+      'How should I prepare and use ORS correctly?',
+      'When should I seek further medical help?',
+      'Is there a preferred formulation for adults vs children?',
+    ],
+    source: 'General educational information (demo)',
+  },
+  {
+    id: 'med-6',
+    name: 'Saline Nasal Spray',
+    category: 'Respiratory Support',
+    commonUses: 'Helps moisturize nasal passages and can assist with congestion from colds or allergies. Generally considered gentle and non-medicated.',
+    generalPrecautions: 'Use as directed. Clean the nozzle regularly. If symptoms persist or worsen, consult a healthcare professional.',
+    questionsForPharmacist: [
+      'How often can I use saline spray?',
+      'Is there a difference between isotonic and hypertonic sprays?',
+      'Can children use this product?',
+    ],
+    source: 'General educational information (demo)',
+  },
+  {
+    id: 'med-7',
+    name: 'Loratadine',
+    category: 'Allergy Relief',
+    commonUses: 'A non-drowsy antihistamine used for allergic rhinitis and related allergy symptoms.',
+    generalPrecautions: 'Generally well tolerated. Follow dosing guidance. People with severe liver disease should seek advice. Still check interactions with a pharmacist.',
+    questionsForPharmacist: [
+      'Is this less likely to cause drowsiness than other antihistamines?',
+      'Can I take it every day during allergy season?',
+      'Any interactions with my current medicines?',
+    ],
+    source: 'General educational information (demo)',
+  },
+  {
+    id: 'med-8',
+    name: 'Vitamin D (Cholecalciferol)',
+    category: 'Supplements',
+    commonUses: 'Supports bone health and is often discussed in the context of deficiency prevention. Requirements vary by age, location, and individual factors.',
+    generalPrecautions: 'Do not exceed recommended doses without medical advice. High doses over long periods can be harmful. Blood tests may guide supplementation decisions.',
+    questionsForPharmacist: [
+      'Do I need a blood test before starting vitamin D?',
+      'What dose is typical for maintenance?',
+      'Can it interact with any of my medications?',
+    ],
+    source: 'General educational information (demo)',
+  },
+];
